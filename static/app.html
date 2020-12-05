@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>BloodBank</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<!-- Place your content here -->
+<h4>Please enter the bloodtype that you want to find. The query will return the amount of people that have donated 7+ more times with that bloodtype</h4>
+<div class = "bloodtypeSearch">
+    Blood Type: <input type="text" name="" id="bloodtype">
+    <button id="findDonors">Find Donors</button>
+    <button id="setDonors">Set Donors</button>
+    <ol id = "listOfDonors"></ol>
+</div>
+
+<div class = "getRecentRequests">
+    <h4>Click this button to get a list of the 5 most recenet requests and the hospitals they are associated with</h4>
+    <button id="getRecentRequests">Find Recent Requests</button>
+    <ol id = "listOfRequests"></ol>
+</div>
+
+<!-- Embedded JavaScript go here -->
+<script defer src="app.js"></script>
+</body>
+</html>
